@@ -1,20 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
 *{
 	margin: 0px;
 	padding: 0px;
 }
 body{
 	/*text-align: center;*/
-	width: 1350px;
+	width: 100%;
 	margin: auto;
+	font-family: Work Sans;
 }
 .header{
-	width: 1300px;
+	/*width: 95%;*/
 	height: 60px;
-	background-color: lightgrey;
+	background-color: #F0F0F0;
 	/*text-align: center;*/
-	margin: 0px 25px 0px 25px;
+	/*margin: 0px 25px 0px 25px;*/
 }
-
+.flex{
+	/*width: 95%;*/
+	margin-right: 5px;
+	margin-left: 5px;
+}
 .ff{
 	/*display: inline;*/
 	text-align: center;
@@ -22,10 +29,10 @@ body{
 	/*width: 100px;*/
 	/*height: 800px;*/
 	border-right: 1px solid grey;
-	border-left: 1px solid grey;
+	/*border-left: 1px solid grey;*/
 
-	padding: 20px;
-	margin: 0px 0px 0px 50px;
+	padding: 10px;
+	/*margin: 0px 0px 0px 50px;*/
 
 }
 .icons{
@@ -54,18 +61,18 @@ body{
 	/*height: 800px;*/
 	border-right: 1px solid grey;
 	/*border-left: 1px solid grey;*/
-	/*padding: 20px;*/
-	margin-left: 20px;
+	padding: 10px;
+	/*margin-left: 20px;*/
 
 	/*text-align: left;*/
 }
-.col-5{
+.col-6{
 	/*width: 5px;*/
 	/*height: 800px;*/
-	border-right: 1px solid grey;
+	/*border-right: 1px solid grey;*/
 	/*border-left: 1px solid grey;*/
 	padding: 20px;
-	margin: 20px;
+	/*margin: 20px;*/
 	margin-top: 0px;
 	margin-bottom: 0px;
 	/*display: inline-block;*/
@@ -85,20 +92,23 @@ li>p{
 .time{
 	float: right;
 	color: grey;
+	font-weight:normal;
+	font-size: 14px;
 	/*display: inline-block;*/
 }
 #edit{
 	float: right;
 }
+#spl{
+	float: right;
+	padding: 10px;
+
+}
 #spl1{
-	margin-right: 350px;
-	padding: 5px;
-}
-#spl::marker{
 	/*margin-right: 350px;*/
-	padding: 5px;
-	color: orange;
+	padding: 10px;
 }
+
 .photo1{
 	padding: 10px;
 	width: 4em;
@@ -113,27 +123,28 @@ li>p{
 	border-bottom: 1px solid grey
 
 }
-.col-5>p{
+.col-6>p{
 
 	color: grey;
 	line-height: 30px;
 }
 .shelly{
-	width: 562px;
+	width: 100%;
 }
 #att{
 	padding: 5px;
-	width: 135px;
+	width: 160px;
 	color: blue;
 	border: 1px solid blue;
 	border-radius: 5px;
 }
 #ff{
-	padding: 5px;
+	padding: 10px;
 	/*width: 80px;*/
-	border-right: 1px solid black;
+	border-right: 1px solid grey;
 	
 }
 #ss{
 	margin: 18px 0px 0px 12px;
+	padding-left: 10px;
 }
